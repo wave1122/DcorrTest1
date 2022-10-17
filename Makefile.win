@@ -1,0 +1,28 @@
+# Project: Exogeneity
+# Makefile created by Dev-C++ 5.11
+
+CPP      = x86_64-w64-mingw32-g++.exe
+CC       = x86_64-w64-mingw32-gcc.exe
+WINDRES  = windres.exe
+OBJ      = main_nongaussian_bivariate.o
+LINKOBJ  = main_nongaussian_bivariate.o
+LIBS     = -L"C:/Dev-Cpp/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0" -L"C:/gsl-2.5/lib" -Wall -Wunknown-pragmas -Wextra -lgsl -lgslcblas -lm -fopenmp
+INCS     = -I"C:/Dev-Cpp/MinGW64/include" -I"C:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/gsl-2.5/include" -I"E:/Copy/SCRIPTS/Exogeneity"
+CXXINCS  = -I"C:/Dev-Cpp/MinGW64/include" -I"C:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Dev-Cpp/MinGW64/include/c++/7.2.0" -I"C:/gtk+-3.6.4/include/gtk-3.0" -I"C:/gsl-2.5/include" -I"E:/Copy/SCRIPTS/Exogeneity"
+BIN      = dcorr.exe
+CXXFLAGS = $(CXXINCS) -march=native -march=haswell -Wall -O3 -fopenmp -std=gnu++14 -DHAVE_INLINE -Wextra -Wstrict-aliasing=3 -Wshadow -Wstrict-overflow -Waggressive-loop-optimizations -Wunknown-pragmas -Wno-deprecated
+CFLAGS   = $(INCS) -march=native -march=haswell -Wall -O3 -fopenmp -std=gnu++14 -DHAVE_INLINE -Wextra -Wstrict-aliasing=3 -Wshadow -Wstrict-overflow -Waggressive-loop-optimizations -Wunknown-pragmas
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main_nongaussian_bivariate.o: main_nongaussian_bivariate.cpp
+	$(CPP) -c main_nongaussian_bivariate.cpp -o main_nongaussian_bivariate.o $(CXXFLAGS)

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Exogeneity" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="test.out" prefix_auto="1" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-deprecated" />
+			<Add directory="/home/bachu/Research/Copy/SCRIPTS/DcorrTest/" />
+		</Compiler>
+		<Linker>
+			<Add option="-fopenmp" />
+			<Add library="gsl" />
+			<Add library="gslcblas" />
+			<Add library="m" />
+			<Add directory="../../../../gsl-2.7/lib" />
+			<Add directory="../../../../Pkgs/shogun2/shogun/installed/lib" />
+		</Linker>
+		<Unit filename="ML_dcorr.h" />
+		<Unit filename="ML_dcorr_power.h" />
+		<Unit filename="ML_reg_dcorr.h" />
+		<Unit filename="ML_reg_dcorr_ver1.h" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="NumMeth.h" />
+		<Unit filename="RF.h" />
+		<Unit filename="ShogunML/data/data.h" />
+		<Unit filename="ShogunML/ml_reg_6_1_4.h" />
+		<Unit filename="ShogunML/tscv.h" />
+		<Unit filename="VAR_CC_MGARCH_dcorr_power.h" />
+		<Unit filename="VAR_CC_MGARCH_reg_dcorr.h" />
+		<Unit filename="VAR_gLasso.h" />
+		<Unit filename="asserts.h" />
+		<Unit filename="dep_tests.h" />
+		<Unit filename="dgp.h" />
+		<Unit filename="dist_corr.h" />
+		<Unit filename="filein.h" />
+		<Unit filename="gaussian_reg.h" />
+		<Unit filename="hsic_test.h" />
+		<Unit filename="kernel.h" />
+		<Unit filename="main_timing_hsic_dcorr_tests.cpp" />
+		<Unit filename="matrix_ops2.h" />
+		<Unit filename="mgarch.h" />
+		<Unit filename="nl_dgp.h" />
+		<Unit filename="nmsimplex.h" />
+		<Unit filename="nongaussian_dist_corr.h" />
+		<Unit filename="nongaussian_power.h" />
+		<Unit filename="nongaussian_reg.h" />
+		<Unit filename="nreg.h" />
+		<Unit filename="others_power.h" />
+		<Unit filename="power.h" />
+		<Unit filename="student_reg.h" />
+		<Unit filename="tests.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

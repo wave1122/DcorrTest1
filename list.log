@@ -1,0 +1,232 @@
+total 32036
+-rwxrwxrwx 1 root root     164 Feb 22  2007 NumMeth.h
+-rwxrwxrwx 1 root root    2938 Feb 24  2007 Matrix.h
+-rwxrwxrwx 1 root root    3219 Jun 14  2007 unirandi.h
+-rwxrwxrwx 1 root root   16158 Jan 15  2011 local.h
+-rwxrwxrwx 1 root root    4611 Jan 16  2011 mgarch_max.h
+-rwxrwxrwx 1 root root   87040 Jun  2  2015 libwinpthread-1.dll
+-rwxrwxrwx 1 root root       5 Dec  5  2015 tests2.h
+-rwxrwxrwx 1 root root 3832988 Sep 26  2016 Exogeneity.zip
+drwxrwxrwx 1 root root       0 Oct 15  2016 .clang
+drwxrwxrwx 1 root root    4096 Oct 15  2016 .codelite
+-rwxrwxrwx 1 root root    4625 Oct 15  2016 exogeneity.project
+-rwxrwxrwx 1 root root    3834 Oct 15  2016 exogeneity.mk
+-rwxrwxrwx 1 root root      25 Oct 15  2016 exogeneity.txt
+drwxrwxrwx 1 root root    4096 Oct 15  2016 Release
+-rwxrwxrwx 1 root root 2788219 Oct 15  2016 exogeneity.exe
+-rwxrwxrwx 1 root root     542 Oct 15  2016 exogeneity.workspace
+-rwxrwxrwx 1 root root    1195 Oct 24  2016 power.txt
+-rwxrwxrwx 1 root root     284 Oct 24  2016 size.txt
+-rwxrwxrwx 1 root root       0 Oct 24  2016 file.txt
+-rwxrwxrwx 1 root root       0 Nov  7  2016 file_out_T=150-500_ddep=0.5.txt
+-rwxrwxrwx 1 root root     131 Nov  7  2016 TAR_pwr_T=150-500_ddep=0.5.txt
+-rwxrwxrwx 1 root root       0 Nov 10  2016 TAR_pwr_T=150-500_ddep=0.txt
+-rwxrwxrwx 1 root root      31 Nov 10  2016 file_out_T=150-500_ddep=0.txt
+-rwxrwxrwx 1 root root       0 Nov 10  2016 file_out_T=50-500_ddep=0.txt
+-rwxrwxrwx 1 root root     461 Nov 10  2016 TAR_pwr_T=50-500_ddep=0.txt
+-rwxrwxrwx 1 root root       0 Nov 10  2016 file_out_T=50-200_ddep=0.txt
+-rwxrwxrwx 1 root root   11241 Nov 11  2016 TAR_pwr_T=50-200_ddep=0.txt
+-rwxrwxrwx 1 root root     129 Nov 12  2016 TAR_pwr_T=250-500_num-bootstrps=600_ddep=0.txt
+-rwxrwxrwx 1 root root      33 Nov 12  2016 file_out_T=250-500_num-bootstrps=600_ddep=0.txt
+-rwxrwxrwx 1 root root    8775 Nov 12  2016 TAR_pwr_T=50-500_num-bootstrps=600_ddep=0.txt
+-rwxrwxrwx 1 root root      92 Nov 12  2016 file_out_T=50-500_num-bootstrps=600_ddep=0.txt
+-rwxrwxrwx 1 root root     145 Nov 12  2016 file_out_T=50-500_num-bootstrps=200_ddep=0.txt
+-rwxrwxrwx 1 root root    4865 Nov 12  2016 TAR_pwr_T=50-500_num-bootstrps=200_ddep=0.txt
+-rwxrwxrwx 1 root root   44752 Nov 13  2016 TAR_pwr_T=50-500_num-bootstrps=500_ddep=0.txt
+-rwxrwxrwx 1 root root     463 Nov 13  2016 file_out_T=50-500_num-bootstrps=500_ddep=0.txt
+-rwxrwxrwx 1 root root    2113 Sep 17  2017 reg.h
+-rwxrwxrwx 1 root root       0 Sep 29  2017 test_power_statistics.txt
+-rwxrwxrwx 1 root root       0 Sep 29  2017 size_out_T=100_lag_smooth=10_rho=5pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root       0 Sep 29  2017 power_out_T=100_lag_smooth=10_rho=5pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root      24 Sep 29  2017 file_out_T=100_lag_smooth=10_rho=5pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root       0 Sep 29  2017 size_out_T=100_lag_smooth=10_rho=5_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root       0 Sep 29  2017 power_out_T=100_lag_smooth=10_rho=5_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root      24 Sep 29  2017 file_out_T=100_lag_smooth=10_rho=5_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root      24 Sep 30  2017 file_out_T=100_lag_smooth=20_rho=10_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root       0 Sep 30  2017 size_out_T=100_lag_smooth=20_rho=10_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root       0 Sep 30  2017 power_out_T=100_lag_smooth=20_rho=10_pvalue=0.050000000000000044.txt
+-rwxrwxrwx 1 root root  144432 Oct 13  2017 main.o
+-rwxrwxrwx 1 root root  148320 Oct 16  2017 main_studentt.o
+-rwxrwxrwx 1 root root   11514 Oct 17  2017 main_studentt.cpp
+-rwxrwxrwx 1 root root   10604 Dec  6  2017 Hong_PWR.txt
+-rwxrwxrwx 1 root root   20546 Dec  6  2017 Hong_CV.txt
+-rwxrwxrwx 1 root root   63762 Dec  6  2017 main_gaussian_mixedAR.cpp
+-rwxrwxrwx 1 root root    3805 Dec  9  2017 student_reg.h
+-rwxrwxrwx 1 root root   64846 Dec  9  2017 main_gaussian (Supermicro-Office-2's conflicted copy 2018-10-19).cpp
+-rwxrwxrwx 1 root root  193519 Dec 10  2017 main_gaussian.o
+-rwxrwxrwx 1 root root       0 Dec 10  2017 multivariate_test.txt
+-rwxrwxrwx 1 root root   76154 Dec 10  2017 main_gaussian_test.cpp
+-rwxrwxrwx 1 root root  276803 Dec 10  2017 main_gaussian_test.o
+-rwxrwxrwx 1 root root    9650 Dec 12  2017 gaussian_reg.h
+-rwxrwxrwx 1 root root    1561 Dec 29  2017 filein.h
+-rwxrwxrwx 1 root root    5280 Jan  2  2018 nreg.h
+-rwxrwxrwx 1 root root    1133 Aug 21  2018 ndgp.h
+-rwxrwxrwx 1 root root   34092 Aug 24  2018 power.h
+-rwxrwxrwx 1 root root    1145 Aug 25  2018 csvreader.h
+-rwxrwxrwx 1 root root   25618 Sep  6  2018 nongaussian_reg (Test-ASRock-X99's conflicted copy 2018-09-06).h
+-rwxrwxrwx 1 root root    1669 Sep  6  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-06).layout
+-rwxrwxrwx 1 root root     422 Sep  7  2018 Untitled1
+-rwxrwxrwx 1 root root  118262 Sep  7  2018 main_gaussian_bivariate (Test-ASRock-X99's conflicted copy 2018-09-07).cpp
+-rwxrwxrwx 1 root root    1999 Sep  7  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-07).layout
+-rwxrwxrwx 1 root root    2000 Sep  7  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-07 (1)).layout
+-rwxrwxrwx 1 root root   22531 Sep 10  2018 matrix_ops2 (Supermicro-Office-2's conflicted copy 2018-10-19).h
+-rwxrwxrwx 1 root root   22531 Sep 10  2018 matrix_ops2.h.bk
+-rwxrwxrwx 1 root root    2117 Sep 11  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-11).layout
+-rwxrwxrwx 1 root root   13746 Sep 11  2018 nongaussian_dist_corr (Test-ASRock-X99's conflicted copy 2018-09-11).h
+-rwxrwxrwx 1 root root    2180 Sep 11  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-11 (1)).layout
+-rwxrwxrwx 1 root root  292750 Sep 11  2018 main_gaussian_bivariate.o
+-rwxrwxrwx 1 root root    2186 Sep 11  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-11 (2)).layout
+-rwxrwxrwx 1 root root   12457 Sep 11  2018 tests (Supermicro-Office-2's conflicted copy 2018-10-19).h
+-rwxrwxrwx 1 root root    3253 Sep 13  2018 test_output.txt
+-rwxrwxrwx 1 root root  119191 Sep 13  2018 main_gaussian_bivariate.cpp
+-rwxrwxrwx 1 root root    1569 Sep 13  2018 Makefile.win
+-rwxrwxrwx 1 root root  116103 Sep 14  2018 main_nongaussian_bivariate (Test-ASRock-X99's conflicted copy 2018-09-14).cpp
+-rwxrwxrwx 1 root root  271071 Sep 14  2018 main_nongaussian_bivariate.o
+-rwxrwxrwx 1 root root    2385 Sep 14  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-14).layout
+-rwxrwxrwx 1 root root  129100 Sep 14  2018 main_nongaussian_bivariate.cpp
+-rwxrwxrwx 1 root root  148244 Sep 14  2018 main_SN_univariate (Test-ASRock-X99's conflicted copy 2018-09-14).cpp
+-rwxrwxrwx 1 root root    3986 Sep 14  2018 exogeneity.dev
+-rwxrwxrwx 1 root root    1950 Sep 14  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-14 (1)).layout
+-rwxrwxrwx 1 root root   27695 Sep 15  2018 nongaussian_power1.h
+-rwxrwxrwx 1 root root   52492 Sep 20  2018 dep_tests1.h
+-rwxrwxrwx 1 root root   41329 Sep 20  2018 lconv_intl_refcount
+-rwxrwxrwx 1 root root  149707 Sep 21  2018 main_SN_univariate (Supermicro-Office-2's conflicted copy 2018-10-19).cpp
+-rwxrwxrwx 1 root root  149707 Sep 21  2018 main_SN_multivariate.cpp
+-rwxrwxrwx 1 root root  970703 Sep 21  2018 dcorr (SFConflict wavevn3@hotmail.com 2018-09-22-14-06-28).exe
+-rwxrwxrwx 1 root root    2445 Sep 22  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-09-22).layout
+-rwxrwxrwx 1 root root  192709 Sep 22  2018 dcorr (SFConflict wavevn3@hotmail.com 2018-09-22-14-06-28)
+-rwxrwxrwx 1 root root    2445 Sep 22  2018 exogeneity (SFConflict wavevn3@hotmail.com 2018-09-22-14-06-28).layout
+-rwxrwxrwx 1 root root  124646 Sep 24  2018 main_sn_bivariate (Supermicro-Office-2's conflicted copy 2018-10-19).cpp
+drwxrwxrwx 1 root root    4096 Oct  2  2018 temp
+-rwxrwxrwx 1 root root    1463 Oct  2  2018 exogeneity (Supermicro-Office-2's conflicted copy 2018-10-19).cbp
+-rwxrwxrwx 1 root root    2248 Oct  2  2018 exogeneity (Supermicro-Office-2's conflicted copy 2018-10-19).layout
+-rwxrwxrwx 1 root root   46430 Oct  2  2018 nl_dgp (Supermicro-Office-2's conflicted copy 2018-10-19).h
+-rwxrwxrwx 1 root root   64751 Oct  8  2018 main_gaussian.cpp
+-rwxrwxrwx 1 root root  146892 Oct 23  2018 main_Beta_univariate.cpp
+-rwxrwxrwx 1 root root  148161 Oct 26  2018 main_ChiSq_univariate.cpp
+-rwxrwxrwx 1 root root  149158 Oct 30  2018 main_ChiSq_bivariate.cpp
+-rwxrwxrwx 1 root root  150145 Oct 31  2018 main_SN_bivariate.cpp
+-rwxrwxrwx 1 root root    2642 Oct 31  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-11-01).layout
+-rwxrwxrwx 1 root root      74 Nov  1  2018 screen_out.log
+-rwxrwxrwx 1 root root  147095 Nov  3  2018 main_MN_univariate.cpp
+-rwxrwxrwx 1 root root  237918 Nov  3  2018 main_ChiSq_others.cpp
+-rwxrwxrwx 1 root root  237598 Nov  3  2018 main_MN_others.cpp
+-rwxrwxrwx 1 root root  233376 Nov  3  2018 main_Beta_others.cpp
+-rwxrwxrwx 1 root root  149709 Nov  3  2018 main_SN_univariate.cpp
+-rwxrwxrwx 1 root root  221999 Nov  3  2018 main_SN_others.cpp
+-rwxrwxrwx 1 root root  148856 Nov  6  2018 main_MN_bivariate.cpp
+-rwxrwxrwx 1 root root  233461 Nov 18  2018 main_Exp_others.cpp
+-rwxrwxrwx 1 root root    2643 Nov 18  2018 exogeneity (Test-ASRock-X99's conflicted copy 2018-11-18).layout
+-rwxrwxrwx 1 root root  146487 Nov 18  2018 main_Exp_univariate.cpp
+-rwxrwxrwx 1 root root  269315 Nov 18  2018 dcorr
+-rwxrwxrwx 1 root root  147867 Nov 24  2018 main_Exp_bivariate.cpp
+-rwxrwxrwx 1 root root   22897 Jan  2  2019 euclidean_reg.txt.bak
+-rwxrwxrwx 1 root root   22897 Jan  2  2019 euclidean_reg1.txt.bak
+-rwxrwxrwx 1 root root   22895 Jan  2  2019 euclidean_reg.txt
+-rwxrwxrwx 1 root root   22570 Jan  2  2019 euclidean_reg2.txt
+-rwxrwxrwx 1 root root 1050590 Jan  9  2019 dcorr.exe
+-rwxrwxrwx 1 root root       0 Jan  9  2019 ic.txt
+-rwxrwxrwx 1 root root    8031 Jan  9  2019 lasso.txt
+-rwxrwxrwx 1 root root       0 Jan 10  2019 euclidean_reg1.txt
+-rwxrwxrwx 1 root root  235392 Jan 14  2019 dcorr1
+-rwxrwxrwx 1 root root   29818 Jan 14  2019 VAR_gLasso.h
+-rwxrwxrwx 1 root root   28396 Feb  9  2019 main_test_using_gLASSO.cpp
+-rwxrwxrwx 1 root root    6293 Feb  9  2019 main_test_El_Himdi_Roy.cpp
+-rwxrwxrwx 1 root root 2056401 Apr 14  2020 boot_xi1.txt
+-rwxrwxrwx 1 root root 2056925 Apr 14  2020 boot_xi.txt
+-rwxrwxrwx 1 root root   10447 Apr 14  2020 boot_stat1.txt
+-rwxrwxrwx 1 root root   35116 Apr 14  2020 nongaussian_power.h
+-rwxrwxrwx 1 root root 1048847 Apr 14  2020 dcorr1.exe
+-rwxrwxrwx 1 root root   10438 Apr 14  2020 boot_stat.txt
+-rwxrwxrwx 1 root root  132420 Apr 15  2020 main_bootstrp_SN_bivariate.cpp
+-rwxrwxrwx 1 root root  148225 Apr 16  2020 main_Beta_bivariate.cpp
+-rwxrwxrwx 1 root root  132305 Apr 16  2020 main_bootstrp_Beta_bivariate.cpp
+-rwxrwxrwx 1 root root  481457 Apr 17  2020 The_rmgarch_models.pdf
+-rwxrwxrwx 1 root root  292752 Apr 17  2020 rmgarch.pdf
+-rwxrwxrwx 1 root root  310542 Apr 17  2020 quantmod.pdf
+-rwxrwxrwx 1 root root  359634 Apr 17  2020 rugarch.pdf
+-rwxrwxrwx 1 root root  102107 Apr 17  2020 gtrendsR.pdf
+-rwxrwxrwx 1 root root   29240 Apr 22  2020 main_bootstrp_using_MGARCH.cpp
+-rwxrwxrwx 1 root root   36852 Apr 22  2020 nongaussian_dist_corr.h
+-rwxrwxrwx 1 root root  150632 Apr 23  2020 out_stat1.txt.bak
+-rwxrwxrwx 1 root root  150629 Apr 23  2020 out_stat.txt.bak
+-rwxrwxrwx 1 root root  150629 Apr 23  2020 out_stat1.txt
+-rwxrwxrwx 1 root root  150633 Apr 23  2020 out_stat.txt
+-rwxrwxrwx 1 root root  132548 Apr 26  2020 main_bootstrp_Exp_bivariate.cpp
+-rwxrwxrwx 1 root root   25445 Apr 27  2020 main_bootstrp_using_MGARCH_Covid_app.cpp
+-rwxrwxrwx 1 root root 1030648 Apr 28  2020 Bootstrp_SN_bivariate_BL_T=100_M=5.exe
+-rwxrwxrwx 1 root root   25390 Apr 28  2020 main_bootstrp_using_MGARCH_Oil_app.cpp
+-rwxrwxrwx 1 root root   25462 May  4  2020 main_bootstrp_using_MGARCH_GT_app.cpp
+-rwxrwxrwx 1 root root   25481 May 10  2020 main_bootstrp_using_MGARCH_GDP_app.cpp
+-rwxrwxrwx 1 root root    1474 May 10  2020 histogram.R
+drwxrwxrwx 1 root root   24576 Jun  8  2020 Application
+-rwxrwxrwx 1 root root    1142 Nov  2 17:46 RF.h
+-rwxrwxrwx 1 root root  709942 Nov  3 17:39 mymodel.xml
+-rwxrwxrwx 1 root root     263 Nov 10 15:49 cross_validation_timeseries_split.dat
+-rwxrwxrwx 1 root root    5288 Nov 12 17:52 shogun-rf_feat_0.png
+-rwxrwxrwx 1 root root       0 Nov 14 10:46 notes.cpp
+-rwxrwxrwx 1 root root    5234 Nov 15 18:47 shogun-gbm_feat_0.png
+-rwxrwxrwx 1 root root    8491 Nov 17 12:16 shogun-gbm-train_feat_0.png
+-rwxrwxrwx 1 root root    5748 Nov 17 12:16 shogun-gbm-test_feat_0.png
+-rwxrwxrwx 1 root root     406 Nov 17 16:49 asserts.h
+-rwxrwxrwx 1 root root   68488 Nov 17 16:50 dist_corr.h
+-rwxrwxrwx 1 root root   20316 Nov 17 16:51 dgp.h
+-rwxrwxrwx 1 root root    9470 Nov 18 14:25 shogun-rf-train_feat_0.png
+-rwxrwxrwx 1 root root    5055 Nov 18 14:25 shogun-rf-test_feat_0.png
+-rwxrwxrwx 1 root root    9310 Nov 19 09:19 shogun-svr-train_feat_0.png
+-rwxrwxrwx 1 root root    5126 Nov 19 09:19 shogun-svr-test_feat_0.png
+-rwxrwxrwx 1 root root    8860 Nov 19 16:43 shogun-lars-train_feat_0.png
+-rwxrwxrwx 1 root root    5645 Nov 19 16:43 shogun-lars-test_feat_0.png
+-rwxrwxrwx 1 root root    9267 Nov 19 16:58 shogun-krr-train_feat_0.png
+-rwxrwxrwx 1 root root    5222 Nov 19 16:58 shogun-krr-test_feat_0.png
+-rwxrwxrwx 1 root root    9663 Nov 20 15:11 shogun-pca_train_feat_0.png
+-rwxrwxrwx 1 root root   40128 Nov 21 22:19 nongaussian_reg.h
+-rwxrwxrwx 1 root root   28638 Nov 22 15:21 mat_brega.csv
+-rwxrwxrwx 1 root root   28662 Nov 22 15:21 mat_reg2a.csv
+-rwxrwxrwx 1 root root   28662 Nov 22 15:21 mat_reg1a.csv
+-rwxrwxrwx 1 root root  160184 Nov 22 16:40 mat_U.csv
+-rwxrwxrwx 1 root root    1111 Nov 26 12:29 kernel.h
+-rwxrwxrwx 1 root root    2472 Nov 29 15:34 nmsimplex.h.save-failed
+-rwxrwxrwx 1 root root   39681 Dec  3 12:28 main.cpp.save-failed
+-rwxrwxrwx 1 root root      64 Dec  5 17:16 minv.txt
+-rwxrwxrwx 1 root root  701358 Dec  8 17:07 mat_breg.csv
+-rwxrwxrwx 1 root root  701520 Dec  8 17:07 mat_reg2.csv
+-rwxrwxrwx 1 root root  701520 Dec  8 17:07 mat_reg1.csv
+-rwxrwxrwx 1 root root   87422 Dec 19 14:40 main_VAR1.cpp
+-rwxrwxrwx 1 root root   17065 Dec 19 15:27 tests.h
+-rwxrwxrwx 1 root root  132471 Dec 24 15:41 main_bootstrp_MN_bivariate.cpp
+-rwxrwxrwx 1 root root   65310 Dec 25 15:32 ML_dcorr_power.h.save-failed
+-rwxrwxrwx 1 root root    8464 Dec 25 18:13 exogeneity.depend
+-rwxrwxrwx 1 root root  260766 Dec 26 15:17 main_others_VAR1_misspec.cpp
+-rwxrwxrwx 1 root root  260447 Dec 26 15:41 main_others_CC_MGARCH_misspec.cpp
+drwxrwxrwx 1 root root   12288 Dec 26 16:03 ..
+-rwxrwxrwx 1 root root   65490 Dec 27 13:11 ML_dcorr_power.h
+drwxrwxrwx 1 root root    4096 Dec 29 11:17 ShogunML
+-rwxrwxrwx 1 root root   72964 Dec 30 10:14 others_power.h
+-rwxrwxrwx 1 root root 1002936 Dec 30 17:24 empirical_app
+-rwxrwxrwx 1 root root  261288 Dec 30 22:04 main_others_CC_MGARCH.cpp
+-rwxrwxrwx 1 root root  259816 Dec 30 22:43 main_others_VAR1.cpp
+-rwxrwxrwx 1 root root   82895 Dec 31 23:22 main_CC_MGARCH_bootstrap.cpp
+-rwxrwxrwx 1 root root   52163 Jan  1 11:19 ML_reg_dcorr.h
+-rwxrwxrwx 1 root root   37842 Jan  1 11:39 ML_dcorr.h
+-rwxrwxrwx 1 root root   36364 Jan  5 08:25 matrix_ops2.h
+-rwxrwxrwx 1 root root    2491 Jan  5 15:12 nmsimplex.h
+-rwxrwxrwx 1 root root   88420 Jan  7 08:43 main_CC_MGARCH.cpp
+-rwxrwxrwx 1 root root   83158 Jan  7 08:49 main_VAR1_bootstrap.cpp
+-rwxrwxrwx 1 root root   13347 Jan  7 10:40 hsic_test.h
+-rwxrwxrwx 1 root root   75256 Jan  7 10:52 dep_tests.h
+-rwxrwxrwx 1 root root    9194 Jan  7 11:54 VAR_CC_MGARCH_reg_dcorr.h.save-failed
+-rwxrwxrwx 1 root root   90232 Jan  7 15:26 nl_dgp.h
+-rwxrwxrwx 1 root root   19499 Jan  7 16:49 mgarch.h
+-rwxrwxrwx 1 root root   68227 Jan  8 11:04 main.cpp
+drwxrwxrwx 1 root root    8192 Jan  9 18:56 Results
+-rwxrwxrwx 1 root root    2159 Jan  9 19:08 exogeneity.cbp
+-rwxrwxrwx 1 root root   30806 Jan 10 09:49 VAR_CC_MGARCH_dcorr_power.h
+-rwxrwxrwx 1 root root  103227 Jan 10 09:57 main_VAR_CC_MGARCH_VAR_data.cpp
+-rwxrwxrwx 1 root root  104000 Jan 10 10:08 main_VAR_CC_MGARCH_MGARCH_data.cpp
+-rwxrwxrwx 1 root root    9145 Jan 10 10:14 VAR_CC_MGARCH_reg_dcorr.h
+drwxrwxrwx 1 root root   20480 Jan 10 10:14 .objs
+-rw-rw-rw- 1 root root  721400 Jan 10 10:14 test
+-rwxrwxrwx 1 root root    6063 Jan 10 10:15 exogeneity.layout
+drwxrwxrwx 1 root root  487424 Jan 10 17:00 .
+-rwxrwxrwx 1 root root       0 Jan 10 17:01 list.log

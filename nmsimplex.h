@@ -1,0 +1,75 @@
+#ifndef NMSIMPLEX_H_
+#define NMSIMPLEX_H_
+
+#include <shogun/lib/SGVector.h>
+#include <boost/numeric/conversion/cast.hpp>
+#include <gsl/gsl_cdf.h>
+#include <gsl/gsl_randist.h>
+#include <gsl/gsl_rng.h>
+
+using namespace std;
+
+
+//Mimimize a function by using the Simplex algorithm of Nelder and Mead. This function return the min. value of an objective function (my_f). OUTPUT: a vector of min. values (minvlue)
+template <double my_f (const gsl_vector *, void *)>
+double minimization (SGVector<double> &minvlue, const gsl_vector *x, double* par) //par is a vector of parameters; x is a vector of starting points
+{
+     const gsl_multimin_fminimizer_type *T = gsl_multimin_fminimizer_nmsimplex2;//nmsimplex2rand;
+     gsl_multimin_fminimizer *s = NULL;
+     gsl_vector *ss;
+     gsl_multimin_function minex_func;
+     size_t iter = 0;
+     size_t status, n = 0, max_iter = 2000; //max. number of iterations
+     double size1;
+     auto eps = 1e-4; //set a level of tolerance. Decreasing this further will slow down the convergence
+     n = (x->size);//size of vector x
+     //cout << "size of x is " << n << endl;
+     // Starting point
+     //x = gsl_vector_alloc (n);
+     //gsl_vector_set (x, 0, 5.0);
+     //gsl_vector_set (x, 1, 7.0);
+
+
+     ss = gsl_vector_alloc (n);
+     double init_ss = 0.5; // set an initial step size
+     gsl_vector_set_all (ss, init_ss);
+
+     // Initialize method and iterate
+     minex_func.n = n;
+     minex_func.f = my_f;
+     minex_func.params = par;
+
+     s = gsl_multimin_fminimizer_alloc (T, n);
+     gsl_multimin_fminimizer_set (s, &minex_func, x, ss);
+
+     do {
+            iter++;
+            status = gsl_multimin_fminimizer_iterate(s);
+
+            if (status)
+                 break;
+
+            size1 = gsl_multimin_fminimizer_size (s);
+            status = gsl_multimin_test_size (size1, eps);
+
+            /*if (status == GSL_SUCCESS)
+            {
+                printf ("The simplex algorithm converged to a minimum after %i iterations!\n",  iter);
+            }*/
+			//printf ("%5d %10.3e %10.3e f() = %7.3f size = %.3f\n", iter, gsl_vector_get (s->x, 0), gsl_vector_get (s->x, 2), \
+		//																									s->fval, size1);
+	 } while (status == GSL_CONTINUE && iter < max_iter);
+
+	 minvlue.zero();
+	 for (auto i = 0; i < n; ++i)
+	 {
+		   minvlue[i] = gsl_vector_get(s->x, i);
+	 }
+	 //gsl_vector_free(x);
+	 gsl_vector_free(ss); //free all memory
+	 auto objfunc = (s->fval);
+	 gsl_multimin_fminimizer_free(s);
+	 return  objfunc;
+}
+
+#endif
